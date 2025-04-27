@@ -94,9 +94,13 @@ ul > li:not(:last-child){
     background-color: rebeccapurple;
     padding: 8px 15px 8px 15px;
     color: white;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
 }
 .ssilka{
     text-decoration: none;
+    
 }
 .section{
     background-color: lavender;
@@ -105,9 +109,15 @@ ul > li:not(:last-child){
     box-sizing: border-box;
     margin-bottom: 20px;
 }
+
 .section1{
     background-color: moccasin;
     padding:5px 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
+}
+
+.results{
+    display: flex;
+    gap: 10px;
 }
